@@ -15,11 +15,14 @@ PlayTween:Play()
        function avoid(player)
         while  wait() do
             if game.Players[player] then
-            game.Players.LocalPlayer:Kick(player.. " was in the server.       -- yawnlib --")
+            game.Players.LocalPlayer:Kick(player.. " was in the server.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-- yawnlib --")
             end
         end
        end 
 
+       function chat(args)
+        game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(args,"All")
+       end
 function tp(pos)
     hrp.CFrame = pos
 end
