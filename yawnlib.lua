@@ -15,5 +15,3 @@ PlayTween:Play()
 function tp(pos)
     hrp.CFrame = pos
 end
-tp(CFrame.new(x, y, z))
-ttp(1,CFrame.new(x, y, z))
