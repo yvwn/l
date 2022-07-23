@@ -26,3 +26,4 @@ PlayTween:Play()
 function tp(pos)
     hrp.CFrame = pos
 end
+
